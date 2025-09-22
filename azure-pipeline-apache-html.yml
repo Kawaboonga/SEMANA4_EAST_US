@@ -5,8 +5,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  azureSubscription: 'east_us2' # Este es un nombre que debe cambiar al que crearon.
-  location: 'eastus'
+  azureSubscription: 'east_us' # Este es un nombre que debe cambiar al que crearon.
+  location: 'eastus2'
   resourceGroupName: 'GR_EAST_US2' # Este es un nombre que debe cambiar al que crearon.
   virtualNetworkName: 'VNet-taller-DevOps'
   subnetName: 'Subnet-taller-DevOps'
